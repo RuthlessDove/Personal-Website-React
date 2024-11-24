@@ -1,0 +1,16 @@
+/* Import css variables */
+@import '../../css/Variable.css';
+
+h1{
+    font-family: var(--header-font);
+    text-align: center;
+    font-weight: normal;
+}
+
+.skills-title {
+    font-weight: bold;
+}
+
+.skills-head{
+    padding-top: 2em;
+}

@@ -1,0 +1,89 @@
+/* Import css variables */
+@import '../css/MyProjects.css';
+
+.project-box{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2em;
+    padding-bottom: 2em;
+}
+
+.project-box-even{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2em;
+    padding-bottom: 2em;
+    direction: rtl;
+}
+
+
+.project-box-even .project-description-box .p-number{
+    text-align: end;
+}
+
+.project-box-even .project-description-box .p-title{
+    text-align: end;
+}
+.project-box-even .project-description-box .projects-description {
+    text-align: end;
+}
+.project-box-even .project-description-box {
+    text-align: end;
+}
+
+.p-number{
+    font-size: 2.5em;    
+}
+.p-title{
+    font-size: 45px;
+}
+.p-number, .p-title{
+    font-family: var(--header-font);
+    color: var(--white-color);
+    text-align: start;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.project-box{
+    margin-bottom: 2em;
+}
+
+.projects-description{
+    font-family: var(--body-font);    
+    color: var(--white-color);
+    text-align: start;
+}
+
+.tech-type-box{
+    font-family: var(--body-font);
+    font-weight: bold;
+    color: var(--white-color);
+    background-color: rgb(217, 217, 217, 0.29);
+    padding: 6px 12px;
+    border-radius: 15px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+.mockup-image{
+    height: 20em;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.mockup-image:hover{
+    transform: scale(1.1);
+}
+
+.project-image {
+    border-radius: 10px;
+    height: 20em;
+    overflow: hidden;
+    width: 20em;
+    object-fit: contain;
+}

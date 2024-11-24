@@ -1,0 +1,126 @@
+/* Import css variables */
+@import '../css/MyProjects.css';
+
+.c-container{
+    display: flex;
+    justify-content: center;
+    padding: 4em 8em;
+    align-items: center; 
+    background-color: var(--grey-color);
+}
+
+.c-content{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 1.8em;
+    align-items: center;
+    border-radius: 20px;
+    margin: auto auto;
+    padding: 1em 2em;
+    background: linear-gradient(
+        to right,
+        var(--white-color) 0%,
+        var(--white-color)  80%,
+        var(--purple-color) 80%,
+        var(--purple-color) 100%
+    );
+    max-width: 120em;
+}
+
+.c-right {
+    width: 100%;
+    overflow: hidden;
+}
+
+.c-title {
+    font-family: var(--header-font);
+    text-align: left;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 2px;
+    margin-top: 4px;
+}
+
+.c-body {
+    font-family: var(--body-font);
+    font-weight: 500;
+    text-align: start;
+    margin-top: 2px;
+}
+
+.c-talk {
+    color: var(--purple-color);
+}
+
+.c-input-box {
+    display: block;
+    border: solid 1px var(--input-outline-color);
+    padding: 10px 0 10px 5px;
+    width: 100%;
+    margin: 1.2em 0;
+    border-radius: 5px;    
+}
+
+.c-input {
+    border: none;
+    background: none;    
+    font-family: var(--body-font);
+    width: 100%;
+}
+
+.c-input:focus{
+    outline: 0;
+}
+
+.c-message-input {
+    height: 10em;
+    width: 100%;
+    padding-right: 5px;
+}
+
+.c-img {
+    height: 24px;
+    width: 24px;
+    color: var(--purple-color);
+    margin-right: 5px;
+}
+
+.c-message-input::placeholder{
+    margin: 0;
+    padding: 0;
+    padding-top: 2px;
+}
+
+.box1, .box2 {
+    display: flex;
+    align-items: center;
+}
+
+.box3 {
+    display: flex;
+    align-items: start;
+}
+
+.c-right-img{
+    width: 17em;
+    border-radius: 20px;   
+}
+
+.c-submit{
+    color: var(--white-color);
+    width: 100%;
+    border: none;
+    background-color: var(--purple-color);
+    padding: 10px 0;
+    border-radius: 5px;
+    font-family: var(--body-font);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.c-submit:hover {
+    cursor: pointer;
+    /* background-color: var(--purple-color); */
+    /* filter: brightness(0.9); */
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}

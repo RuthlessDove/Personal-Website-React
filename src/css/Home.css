@@ -1,0 +1,23 @@
+/* Import css variables */
+@import './Variable.css';
+
+.home{
+    scroll-behavior: smooth;
+}
+
+.h-spanish{
+    font-weight: bold;
+    font-family: var(--body-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.spain-img{
+    height: 20px;
+}
+
+p {
+    font-family: var(--body-font);
+}

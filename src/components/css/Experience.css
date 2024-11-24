@@ -1,0 +1,13 @@
+/* Import css variables */
+@import '../css/MyProjects.css';
+
+.e-header{
+    padding-top: 2em;
+    margin-top: 0;
+}
+
+.e-more-text{
+    font-weight: bold;
+    font-family: var(--body-font);
+    text-align: center;
+}

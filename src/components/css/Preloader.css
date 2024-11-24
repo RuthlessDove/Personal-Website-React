@@ -1,0 +1,47 @@
+/* Import css variables */
+@import '../../css/Variable.css';
+
+.preloader { 
+    height: 100vh;
+    width: 100%;
+    background: var(--white-color);
+    color: var(--black-color);    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.preloader .texts-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 280px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: var(--nav-font);
+    color: var(--black-color);
+    overflow: hidden;
+}
+
+.p-img-div{
+    margin-bottom: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preload-img{
+    height: 10em;
+    align-self: center;
+
+}

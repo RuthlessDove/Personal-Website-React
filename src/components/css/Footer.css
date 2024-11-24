@@ -1,0 +1,66 @@
+/* Import css variables */
+@import '../../css/Variable.css';
+
+.f-container{
+    background-color: var(--purple-color);
+    margin: 0 0 0 0 ;
+    padding: 1em 0;
+}
+
+.f-content{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    justify-content: center;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+.f-subcontainer{
+    max-width: 120em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.f-icons{
+    display: flex;
+    width: fit-content;
+    background-color: var(--white-color);
+    padding: 5px;
+    border-radius: 100px;
+}
+
+.f-rights{
+    color: var(--white-color);
+    font-family: var(--body-font);
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.f-line{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: solid 1px rgb(255 , 255, 255, 0.5);
+    margin: 15px 20%;
+}
+
+.f-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 30%;
+    color: var(--white-color);
+}
+
+.f-nav-item {
+    font-family: var(--body-font) ;
+    font-weight: bold;
+}
+
+.f-nav-item:hover {
+    cursor: pointer;
+}

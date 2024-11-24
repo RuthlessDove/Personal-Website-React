@@ -1,0 +1,48 @@
+/* Import css variables */
+@import '../../css/Variable.css';
+
+.soft-skill-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
+    column-gap: 30px;
+    /* width: 80%; */
+    margin: auto 10em 5em 10em;
+    max-width: 130rem;
+}
+
+.soft-skill-title{
+    font-family: var(--header-font);
+    margin-bottom: 5px;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px 20px;
+    box-shadow:0 2px 8px 0 rgba(0, 0, 0, 0.3);
+    font-family: var(--body-font);
+    font-size: 15px;
+}
+
+#id2, #id4{
+    transform: translateY(40px);
+}
+
+.s-body {
+    font-family: var(--body-font);
+}
+
+@media only screen and (max-width: 938px) {
+    #id2, #id4{
+        transform: translateY(0px);
+    }
+
+    .grid-item {
+        margin-bottom: 2.5em;
+    }
+    
+  }

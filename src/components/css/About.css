@@ -1,0 +1,35 @@
+/* Import css variables */
+@import '../../css/Variable.css';
+
+.a-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    margin: 2em 12%;
+}
+
+.a-content {
+    max-width: 80em;
+}
+
+.a-title, .a-body{
+    text-align: start;
+}
+
+.a-title {
+    font-weight: bold;
+}
+
+.a-img {
+    max-width: 400px;
+    height: 300px; 
+    border-radius: 15px;
+}
+
+.a-body {
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-weight: 500;
+}

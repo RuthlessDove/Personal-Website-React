@@ -1,0 +1,15 @@
+/* Import css variables */
+@import '../css/MyProjects.css';
+
+.top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 60px;
+    color: var(--pink-color);
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;  
+    z-index: 100;
+}

@@ -1,0 +1,25 @@
+/* Import css variables */
+@import '../css/Variable.css';
+
+.p-main{
+    background-color: var(--grey-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin: 0;
+}
+
+.projects-component-div{
+    max-width: 120em;
+}
+
+.projects-title-bold{
+    font-weight: bold;
+}
+
+.projects-title{
+    color: var(--white-color);
+    font-family: var(--header-font)
+}
+

@@ -1,0 +1,45 @@
+/* Import css variables */
+@import '../css/MyProjects.css';
+
+.p-main{
+    background-color: var(--grey-color);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    font-size: 18px;
+}
+
+.projects-component-div{
+    padding: 2em 10%;
+    max-width: 120em;
+}
+
+.projects-title-bold{
+    font-weight: bold;
+}
+
+.projects-title{
+    color: var(--white-color);
+    font-family: var(--header-font)
+}
+
+.p-see-more{
+    display: flex;
+    justify-content: center;
+    background-color: var(--purple-color);
+    font-family: var(--header-font);
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 1.25em;
+    padding: .5em 2.5em;
+    margin: 2em auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.projects-link {
+    text-decoration: none;
+    color: var(--white-color);
+}
