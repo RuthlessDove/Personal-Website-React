@@ -28,7 +28,7 @@ const Hero = () => {
               className='memoji'
               alt='Profile caricature'
             />
-            <h1 className='h-text1'>Hi, I'm <span className='h-name'>Grace</span><br/>A Frontend Developer</h1>
+            <h1 className='h-text1'>Hi, I'm <span className='h-name'>Grace</span><br/>A Software Developer</h1>
             <div className='h-para-div'>
               <p className='h-text2'>I am an engineer who is always learning and building on my experience to build impactful and robust technology. </p>
               <p className='location-info'><GrMapLocation/> London, UK</p>
