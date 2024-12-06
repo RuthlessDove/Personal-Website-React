@@ -1,4 +1,5 @@
 import './App.css';
+import { SpeedInsights } from "@vercel/speed-insights/react"  // Get speed insights from vercel 
 import { Route, Switch } from "react-router-dom";
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -10,7 +11,7 @@ function App() {
   
   return (
     <div className='App'>
-      
+      <SpeedInsights />
       {/* <Preloader /> */}
       <ScrollToTop />  
       <BackToTopButton />
