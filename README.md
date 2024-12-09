@@ -5,6 +5,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ![Screenshot of the webpage](./src/assets/Personal-web.png "Screenshot of hero section of the site")
 
 
+
+Take a look at the live site: [My Personal Website](https://personal-website-react-omega.vercel.app/)
+
+
 ## Available Scripts
 
 In the project directory, you can run:
